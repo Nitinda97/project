@@ -27,7 +27,7 @@ spec: #inside your deployment we need to provide spec how this deployment api wi
                 name: financeapp 
             env:
               - name: DB_HOSTNAME
-                value: 192.168.145.218
+                value: db-service
               - name: DB_PORT
                 value: "3306"
               - name: DB_NAME 
